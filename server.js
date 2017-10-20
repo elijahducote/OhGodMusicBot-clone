@@ -95,4 +95,4 @@ client.on('message', msg => {
 	if (commands.hasOwnProperty(msg.content.toLowerCase().slice(tokens.prefix.length).split(' ')[0])) commands[msg.content.toLowerCase().slice(tokens.prefix.length).split(' ')[0]](msg);
 });
 client.login(tokens.d_token);
-client.login(process.env.BOT_TOKEN):
+client.login(process.env.BOT_TOKEN);
